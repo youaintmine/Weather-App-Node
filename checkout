@@ -1,0 +1,8 @@
+//This is removes as the app.use serves up the homepage
+// app.get('', (req, res) => {
+//     res.send('Hello express!')
+// })
+
+//app.com
+//app.com/help
+//app.com/about
