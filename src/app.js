@@ -5,9 +5,9 @@ const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 // const { getCiphers } = require('crypto')
 
-const port = 3000
-const app = express()
 
+const app = express()
+const port = process.env.PORT || 3000
 
 //Define paths for express config
 //publicServepage is deprecated here as we moved the system to the bew file structs
